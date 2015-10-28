@@ -49,7 +49,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha 	= isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$id 	= isset($propriedades['id']) ? $propriedades['id'] : null;
 				$class 	= isset($propriedades['class']) ? $propriedades['class'] : null;
 				$style 	= isset($propriedades['style']) ? $propriedades['style'] : null;
@@ -154,7 +153,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$border = isset($propriedades['border']) ? $propriedades['border'] : null;
 				$cellspacing = isset($propriedades['cellspacing']) ? $propriedades['cellspacing'] : null;
 				$cellpadding = isset($propriedades['cellpadding']) ? $propriedades['cellpadding'] : null;
@@ -189,7 +187,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$align = isset($propriedades['align']) ? $propriedades['align'] : null;
 				$valign = isset($propriedades['valign']) ? $propriedades['valign'] : null;
 				$bgcolor = isset($propriedades['bgcolor']) ? $propriedades['bgcolor'] : null;
@@ -221,7 +218,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$colspan = isset($propriedades['colspan']) ? $propriedades['colspan'] : null;
 				$rowspan = isset($propriedades['rowspan']) ? $propriedades['rowspan'] : null;
 				$width = isset($propriedades['width']) ? $propriedades['width'] : null;
@@ -268,7 +264,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$colspan = isset($propriedades['colspan']) ? $propriedades['colspan'] : null;
 				$rowspan = isset($propriedades['rowspan']) ? $propriedades['rowspan'] : null;
 				$width = isset($propriedades['width']) ? $propriedades['width'] : null;
@@ -315,7 +310,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$name = isset($propriedades['name']) ? $propriedades['name'] : 'form1';
 				$method = isset($propriedades['method']) ? $propriedades['method'] : 'post';
 				$action = isset($propriedades['action']) ? $propriedades['action'] : null;
@@ -595,7 +589,6 @@ class Html
 		{
 			if (is_array($fecha)) {
 				$propriedades = $fecha;
-				$fecha = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
 				$name = isset($propriedades['name']) ? $propriedades['name'] : null;
 				$size = isset($propriedades['size']) ? $propriedades['size'] : null;
 				$multiple = isset($propriedades['fecha']) ? $propriedades['fecha'] : null;
